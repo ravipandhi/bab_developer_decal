@@ -1,0 +1,59 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Installation steps:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Installed geth (go ethereum client) on ubuntu with following commands:
+
+"
+sudo apt-get install software-properties-common
+sudo add-apt-repository -y ppa:ethereum/ethereum
+sudo apt-get update
+sudo apt-get install ethereum
+"
+
+Installed solidity compiler
+npm install -g solc
+
+
+Install truffle 
+npm install -g truffle
+
+Install ganache 
+npm install -g ganache-cli
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Notes:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Created a new account with geth account new, which asks you to enter a password. 
+On the basis of the password, new key pair (public private key pair) is generated.
+
+Public address of the key : 0x8ab7fae3e3ad487420fb95cabc51a4bcc0445cdc
+
+https://www.bitaddress.org/ for generating random 32 bit keys
+
+eth.coinbase gets the current address of the account that is associated to the testnet.
+miner.setEtherbase("addresshere") could be used to set a different account to the testnet. 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Assignment:
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+What is the difference between “light”, “fast”, and “full” geth syncmodes?
+
+Light - it does not get everything, just some block headers and does not validate, but depends on a full node for validation.
+Fast - it gets everything but validates only some recent blocks
+Full - it gets everything and validates everything
+
+Why use testnet over mainnet?
+
+Testnet is analogous to local environment that we develop on when we develop an application. 
+Mainnet is analogous to client’s cloud deployment.
+
+We do not want things to not work out on mainnet. The application behaves in unexpected ways and also it takes real ether to deploy and run code on mainnet. 
+
+What is Proof of Authority?
+
+It is a protocol which when implemented, gives out a certain result, only if you show proof that you are authorized to access an account. 
+For example, Rinkeby testnet will give you fake ether from faucet only when it knows that you are authorized to access a twitter account.
+
