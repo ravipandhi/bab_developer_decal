@@ -1,0 +1,38 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Notes
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Functions of Money:
+
+1. Medium of exchange
+2. Store of value
+3. Unit of value
+(4). 
+
+Durability, Portability, divisibility, uniformity, limited supply, acceptability
+
+Byzantine General's problem is a problem that two trustless actors seperated far away wont be able to agree on the state of a system. 
+
+Just like Internet can be divided into five layers, blockchain should also be divided:
+
+1) Consensus Layer: that handles which ledger is the consensus ledger
+2) Mining Layer: that handles incentivization
+3) Propogation Layer: that determines how blocks are transmitted between nodes in a network.
+4) Semantic Layer: what is the meaning of the new blocks? 
+5) Application Layer: code that implements desired functionality.
+
+
+Bitcoin decomposition:
+
+1.Identity
+Public and private keys
+Who sent to whom, so transaction have to signed by your private key, so people recognize that you have signed it by validating it with your public address. 
+Each person could have 2 raised to 127 address all to themselves (considering that the population is around 7.5 billion)
+2.Consensus
+3.Mining
+coinbase transaction is a transaction which rewards the miners and is included in every block. 
+transaction does not just contain source and destination. it contains data segments which can be used to send signals as well. 
+4.Propogation
+5.Semantic
+6.Application 
+7.Transactions
