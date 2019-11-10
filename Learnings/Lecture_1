@@ -7,7 +7,6 @@ Functions of Money:
 1. Medium of exchange
 2. Store of value
 3. Unit of value
-(4). 
 
 Durability, Portability, divisibility, uniformity, limited supply, acceptability
 
@@ -36,3 +35,6 @@ transaction does not just contain source and destination. it contains data segme
 5.Semantic
 6.Application 
 7.Transactions
+UTXO model = Unspent transaction output is like a change that you receive (lets say you give 40 btc and you receive 5 back because lambo costs 35 btc)
+Bitcoin language is not turing complete. 
+

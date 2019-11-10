@@ -1,0 +1,27 @@
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Notes
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ethereum:
+
+EVM is a VM that runs on all the nodes. Transaction should have the same output on every node. Every node should be in the same state after the transaction. 
+Every operation like STOP, ADD, SUB, DIV etc would incure different gas costs. 
+
+Solidity:
+Events in solidity broadcasts that certain things happen. For example, after a certain function is executed successfully, you log an event.   
+Other nodes listen to the events that happened. 
+msg is a globally accessible variable.
+msg.sender denotes the contract caller.
+function (){
+
+    throw;
+}
+this is a callback function (throw reverts everything that happened)
+
+Difference between a transaction and a call:
+
+https://ethereum.stackexchange.com/questions/765/what-is-the-difference-between-a-transaction-and-a-call
+
+Transaction is broadcasted to the network and requires gas
+Call is internal and does not require gas because it does not change the state of the contract. 
+
