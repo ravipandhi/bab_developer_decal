@@ -1,0 +1,16 @@
+Ethereum:
+Its like a git platorm but everyone is running all the computation. 
+Account based and not UTXO based.
+
+bitcoin state change APPLY function in the ppt (really helpful)
+
+An account has a 160 byte identifier. 
+Refer to preethi's article on : https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369
+
+Smart contracts generally server four main purposes:
+1) Store and maintain data - storing balance or membership status
+2) Manage contract or relatioonship between untrusting users (escrow, defi etc)
+3) Provide functions to other contracts - serving as a software library ( I like a clean, cheap code for manipulating string! this could be used by others)
+4) Complex authentications (release the balance from this contract only when two out of three users sign)
+
+OpenZeppelin provides a library (point 3) that could be imported and worked with. 

@@ -1,0 +1,20 @@
+Tools for Dapp development:
+
+Truffle handles boilerplate code. (Sets up the project structure)
+Ganache spins us a local blockchain instance.
+
+*Project stucture:
+Contracts: contains our source code; the old contract points to the new contract(a new version)
+Migrations: add scripts for staging deployment tasks;
+Test:where the test cases lies;
+
+command 'ganache-cli' generates 10 ethereum accounts
+command 'truffle console' takes you to truffle console where you can compile contracts, deploy, test etc.
+
+IMP: Overloaded functions does not work with truffle (it works in remix). It was supposed to work in v5 but still does not.  
+How to execute:
+
+'truffle migrate' command will compile and write to local net.
+let instance = await Greeter.deployed()
+instance.greet()
+instance.change_greeting('hi')

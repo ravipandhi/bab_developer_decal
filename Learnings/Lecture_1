@@ -38,3 +38,7 @@ transaction does not just contain source and destination. it contains data segme
 UTXO model = Unspent transaction output is like a change that you receive (lets say you give 40 btc and you receive 5 back because lambo costs 35 btc)
 Bitcoin language is not turing complete. 
 
+Explaining Bitcoin is like explaining two fundamental most important underlying technologies behind it. 
+Digital Signatures: this means that yes, me and only me with my private key signed the transaction of sending BTC to other participant.
+Hash functions:this means that the hash of the blocks (consisting of the transactions) remain integral.
+The work put behidnd finding a number whose value is less than a certain number is called mining. The work goes on increasing (mining difficulty increases over time)

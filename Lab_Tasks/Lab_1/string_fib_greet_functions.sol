@@ -48,6 +48,7 @@ contract string_fib_greet_functions
     function concatenate_string(string memory source, string memory destination) public pure returns(string memory)
     {
         bytes memory merged_string = new bytes(bytes(source).length+bytes(destination).length);
+        //use bytes when you do not know the length of the data
         for(uint i = 0;i<bytes(source).length;i++)
         {
             merged_string[i] = bytes(source)[i];
