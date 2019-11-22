@@ -55,14 +55,14 @@
     "absolutePath": "/media/ravi/Local Disk/ubuntu/bab_decal_spring_2018/Lab_Tasks/Lab_2/contracts/Greeter.sol",
     "exportedSymbols": {
       "Greeter": [
-        431
+        736
       ]
     },
-    "id": 432,
+    "id": 737,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 401,
+        "id": 706,
         "literals": [
           "solidity",
           "^",
@@ -78,19 +78,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 431,
+        "id": 736,
         "linearizedBaseContracts": [
-          431
+          736
         ],
         "name": "Greeter",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 404,
+            "id": 709,
             "name": "greeting_text",
             "nodeType": "VariableDeclaration",
-            "scope": 431,
+            "scope": 736,
             "src": "50:46:3",
             "stateVariable": true,
             "storageLocation": "default",
@@ -99,7 +99,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 402,
+              "id": 707,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "50:6:3",
@@ -111,7 +111,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "68656c6c6f2c20576f726c6421",
-              "id": 403,
+              "id": 708,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -130,31 +130,31 @@
           },
           {
             "body": {
-              "id": 407,
+              "id": 712,
               "nodeType": "Block",
               "src": "849:36:3",
               "statements": []
             },
             "documentation": null,
-            "id": 408,
+            "id": 713,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 405,
+              "id": 710,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "840:2:3"
             },
             "returnParameters": {
-              "id": 406,
+              "id": 711,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "849:0:3"
             },
-            "scope": 431,
+            "scope": 736,
             "src": "829:56:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -162,54 +162,54 @@
           },
           {
             "body": {
-              "id": 415,
+              "id": 720,
               "nodeType": "Block",
               "src": "956:37:3",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 413,
+                    "id": 718,
                     "name": "greeting_text",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 404,
+                    "referencedDeclaration": 709,
                     "src": "973:13:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 412,
-                  "id": 414,
+                  "functionReturnParameters": 717,
+                  "id": 719,
                   "nodeType": "Return",
                   "src": "966:20:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 416,
+            "id": 721,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "greet",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 409,
+              "id": 714,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "919:2:3"
             },
             "returnParameters": {
-              "id": 412,
+              "id": 717,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 411,
+                  "id": 716,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 416,
+                  "scope": 721,
                   "src": "942:13:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -218,7 +218,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 410,
+                    "id": 715,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "942:6:3",
@@ -233,7 +233,7 @@
               ],
               "src": "941:15:3"
             },
-            "scope": 431,
+            "scope": 736,
             "src": "905:88:3",
             "stateMutability": "view",
             "superFunction": null,
@@ -241,25 +241,25 @@
           },
           {
             "body": {
-              "id": 429,
+              "id": 734,
               "nodeType": "Block",
               "src": "1124:77:3",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 425,
+                    "id": 730,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 423,
+                      "id": 728,
                       "name": "greeting_text",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 404,
+                      "referencedDeclaration": 709,
                       "src": "1134:13:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
@@ -270,11 +270,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 424,
+                      "id": 729,
                       "name": "_this_greeting",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 418,
+                      "referencedDeclaration": 723,
                       "src": "1150:14:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -287,48 +287,48 @@
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 426,
+                  "id": 731,
                   "nodeType": "ExpressionStatement",
                   "src": "1134:30:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 427,
+                    "id": 732,
                     "name": "greeting_text",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 404,
+                    "referencedDeclaration": 709,
                     "src": "1181:13:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 422,
-                  "id": 428,
+                  "functionReturnParameters": 727,
+                  "id": 733,
                   "nodeType": "Return",
                   "src": "1174:20:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 430,
+            "id": 735,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "change_greeting",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 419,
+              "id": 724,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 418,
+                  "id": 723,
                   "name": "_this_greeting",
                   "nodeType": "VariableDeclaration",
-                  "scope": 430,
+                  "scope": 735,
                   "src": "1065:28:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -337,7 +337,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 417,
+                    "id": 722,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1065:6:3",
@@ -353,15 +353,15 @@
               "src": "1064:30:3"
             },
             "returnParameters": {
-              "id": 422,
+              "id": 727,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 421,
+                  "id": 726,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 430,
+                  "scope": 735,
                   "src": "1110:13:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -370,7 +370,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 420,
+                    "id": 725,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1110:6:3",
@@ -385,14 +385,14 @@
               ],
               "src": "1109:15:3"
             },
-            "scope": 431,
+            "scope": 736,
             "src": "1040:161:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 432,
+        "scope": 737,
         "src": "26:1554:3"
       }
     ],
@@ -402,14 +402,14 @@
     "absolutePath": "/media/ravi/Local Disk/ubuntu/bab_decal_spring_2018/Lab_Tasks/Lab_2/contracts/Greeter.sol",
     "exportedSymbols": {
       "Greeter": [
-        431
+        736
       ]
     },
-    "id": 432,
+    "id": 737,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 401,
+        "id": 706,
         "literals": [
           "solidity",
           "^",
@@ -425,19 +425,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 431,
+        "id": 736,
         "linearizedBaseContracts": [
-          431
+          736
         ],
         "name": "Greeter",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 404,
+            "id": 709,
             "name": "greeting_text",
             "nodeType": "VariableDeclaration",
-            "scope": 431,
+            "scope": 736,
             "src": "50:46:3",
             "stateVariable": true,
             "storageLocation": "default",
@@ -446,7 +446,7 @@
               "typeString": "string"
             },
             "typeName": {
-              "id": 402,
+              "id": 707,
               "name": "string",
               "nodeType": "ElementaryTypeName",
               "src": "50:6:3",
@@ -458,7 +458,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "68656c6c6f2c20576f726c6421",
-              "id": 403,
+              "id": 708,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -477,31 +477,31 @@
           },
           {
             "body": {
-              "id": 407,
+              "id": 712,
               "nodeType": "Block",
               "src": "849:36:3",
               "statements": []
             },
             "documentation": null,
-            "id": 408,
+            "id": 713,
             "implemented": true,
             "kind": "constructor",
             "modifiers": [],
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 405,
+              "id": 710,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "840:2:3"
             },
             "returnParameters": {
-              "id": 406,
+              "id": 711,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "849:0:3"
             },
-            "scope": 431,
+            "scope": 736,
             "src": "829:56:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
@@ -509,54 +509,54 @@
           },
           {
             "body": {
-              "id": 415,
+              "id": 720,
               "nodeType": "Block",
               "src": "956:37:3",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 413,
+                    "id": 718,
                     "name": "greeting_text",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 404,
+                    "referencedDeclaration": 709,
                     "src": "973:13:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 412,
-                  "id": 414,
+                  "functionReturnParameters": 717,
+                  "id": 719,
                   "nodeType": "Return",
                   "src": "966:20:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 416,
+            "id": 721,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "greet",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 409,
+              "id": 714,
               "nodeType": "ParameterList",
               "parameters": [],
               "src": "919:2:3"
             },
             "returnParameters": {
-              "id": 412,
+              "id": 717,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 411,
+                  "id": 716,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 416,
+                  "scope": 721,
                   "src": "942:13:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -565,7 +565,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 410,
+                    "id": 715,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "942:6:3",
@@ -580,7 +580,7 @@
               ],
               "src": "941:15:3"
             },
-            "scope": 431,
+            "scope": 736,
             "src": "905:88:3",
             "stateMutability": "view",
             "superFunction": null,
@@ -588,25 +588,25 @@
           },
           {
             "body": {
-              "id": 429,
+              "id": 734,
               "nodeType": "Block",
               "src": "1124:77:3",
               "statements": [
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 425,
+                    "id": 730,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
                     "lValueRequested": false,
                     "leftHandSide": {
                       "argumentTypes": null,
-                      "id": 423,
+                      "id": 728,
                       "name": "greeting_text",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 404,
+                      "referencedDeclaration": 709,
                       "src": "1134:13:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_storage",
@@ -617,11 +617,11 @@
                     "operator": "=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "id": 424,
+                      "id": 729,
                       "name": "_this_greeting",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 418,
+                      "referencedDeclaration": 723,
                       "src": "1150:14:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_string_memory_ptr",
@@ -634,48 +634,48 @@
                       "typeString": "string storage ref"
                     }
                   },
-                  "id": 426,
+                  "id": 731,
                   "nodeType": "ExpressionStatement",
                   "src": "1134:30:3"
                 },
                 {
                   "expression": {
                     "argumentTypes": null,
-                    "id": 427,
+                    "id": 732,
                     "name": "greeting_text",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 404,
+                    "referencedDeclaration": 709,
                     "src": "1181:13:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage",
                       "typeString": "string storage ref"
                     }
                   },
-                  "functionReturnParameters": 422,
-                  "id": 428,
+                  "functionReturnParameters": 727,
+                  "id": 733,
                   "nodeType": "Return",
                   "src": "1174:20:3"
                 }
               ]
             },
             "documentation": null,
-            "id": 430,
+            "id": 735,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "change_greeting",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 419,
+              "id": 724,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 418,
+                  "id": 723,
                   "name": "_this_greeting",
                   "nodeType": "VariableDeclaration",
-                  "scope": 430,
+                  "scope": 735,
                   "src": "1065:28:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -684,7 +684,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 417,
+                    "id": 722,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1065:6:3",
@@ -700,15 +700,15 @@
               "src": "1064:30:3"
             },
             "returnParameters": {
-              "id": 422,
+              "id": 727,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 421,
+                  "id": 726,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 430,
+                  "scope": 735,
                   "src": "1110:13:3",
                   "stateVariable": false,
                   "storageLocation": "memory",
@@ -717,7 +717,7 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 420,
+                    "id": 725,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
                     "src": "1110:6:3",
@@ -732,14 +732,14 @@
               ],
               "src": "1109:15:3"
             },
-            "scope": 431,
+            "scope": 736,
             "src": "1040:161:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 432,
+        "scope": 737,
         "src": "26:1554:3"
       }
     ],
@@ -749,23 +749,9 @@
     "name": "solc",
     "version": "0.5.12+commit.7709ece9.Emscripten.clang"
   },
-  "networks": {
-    "1574303590485": {
-      "events": {},
-      "links": {},
-      "address": "0x2480C924BBCE106d0b17CFf2179E6fA648024056",
-      "transactionHash": "0x968792f2c6c3f718a984935d3c6f38274f4f4a61b56e03a8a04d55d2d1207520"
-    },
-    "1574306572122": {
-      "events": {},
-      "links": {},
-      "address": "0x9187F8eA5621712A34df69504fBfeF8008d5Db5b",
-      "transactionHash": "0x88173c4bc1d0f60d99c92b9d4910e4f8c80a9e4087ba704b315e396874ca6911"
-    }
-  },
+  "networks": {},
   "schemaVersion": "3.0.18",
-  "updatedAt": "2019-11-21T04:06:54.345Z",
-  "networkType": "ethereum",
+  "updatedAt": "2019-11-22T02:25:23.929Z",
   "devdoc": {
     "methods": {}
   },
