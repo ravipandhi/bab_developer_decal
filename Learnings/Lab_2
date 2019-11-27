@@ -12,9 +12,25 @@ command 'ganache-cli' generates 10 ethereum accounts
 command 'truffle console' takes you to truffle console where you can compile contracts, deploy, test etc.
 
 IMP: Overloaded functions does not work with truffle (it works in remix). It was supposed to work in v5 but still does not.  
+
 How to execute:
 
-'truffle migrate' command will compile and write to local net.
-let instance = await Greeter.deployed()
-instance.greet()
-instance.change_greeting('hi')
+
+
+
+let betting = await Betting.deployed()
+let accounts = await web3.eth.getAccounts()
+betting.set_oracle(accounts[1])
+betting.make_a_bet(2, {value: 20000000000000000000, from:accounts[3]})
+betting.make_a_bet(1, {value: 10000000000000000000, from:accounts[2]})
+betting.get_gamblers_list()
+betting.get_total_amount()
+betting.is_the_bet_same()
+betting.decide_winners(1)
+betting.decide_the_outcome(1,{from:accounts[1]})
+
+betting.take_my_winning_amount(5000000000000000000, {from:accounts[3]})
+
+betting.take_my_winning_amount(1000000000000000000, {from:accounts[2]})
+betting.take_my_winning_amount(5000000000000000000, {from:accounts[2]})
+betting.take_my_winning_amount(5000000000000000000, {from:accounts[2]})
