@@ -118,7 +118,7 @@ contract Betting {
     function decide_winners(uint correct_outcome) public{
 
         
-
+        require(list_of_winners.length==0,"Already decided the winners");
         //whom should the betting amount go to.
         for (uint i = 0; i<gamblers.length; i++)
         {
