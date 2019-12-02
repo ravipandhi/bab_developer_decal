@@ -1,0 +1,43 @@
+Three security vulnerabilities:
+
+
+1) Unsigned integer arithmetic:
+Be careful with underflow and overflow. Use SafeMath Library for calculator functions.
+
+2) Failure to limit function access
+
+You can also call a contract like:
+Contract_Name(Address_At_which_it_is_deployed).function_name_of_that_contract) 
+//this is like calling an external function from another contract.
+ 
+ With delegate call, you can change the state of the other contract essentially. 
+
+ For example with this 
+
+
+  function delegatecallSetN(address _e, uint _n) public {
+    _e.delegatecall(bytes4(keccak256("setN(uint256)")), _n); // D's storage is set, E is not modified 
+  }
+
+If this function is called from contract D, it can change the value of 'n' in D. 
+So delegating e to make changes to the state of D.
+
+Not able to understnad? Refer to delegate_test.sol file in BAB folder of google drive.
+
+3) Vulnerable to fallback function lack of payability
+payable keyword makes the function accept or send ether to the contract.
+
+Now payable in fallback method makes a function send or receive ether even on poking the contract for any arbitrary reason.
+Never use a contract's balance as a guard.
+
+require() is used to handle validations and everything. if it is difficult to define your validation using require() use revert(). However, try to simplify logic so that you could use require
+
+assert() should ideally never fail, if it does, there is some serious bug in your code. 
+
+There is this example of 'onlyby' modifier that could be applied to function. In that case, the function can only be accessed by a specific contract. 
+
+What is the problem with a fallback function not being payable?
+
+If you do not have a payable fallback function, EOA (Extrenally owned accounts) cannot send you ether directly. they need to use a contract that sends ether to your contract by
+calling deposit method of your contract. 
+

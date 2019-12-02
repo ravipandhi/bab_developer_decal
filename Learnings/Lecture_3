@@ -1,0 +1,39 @@
+Security for Blockchains:
+
+Smart contract Security
+
+Use safe math library for addition, subtraction, multiplication and division
+
+https://ethfiddle.com/6JTMKCSai7
+
+Examples to differentiate:
+
+public - all can access
+
+external - Cannot be accessed internally, only externally
+
+internal - only this contract and contracts deriving from it can access
+
+private - can be accessed only from this contract
+
+Keep your functions private or internal unless there is a need for outside
+interaction.
+
+There is also something called fallback function. It will be called if none of the identifiers match the given function identifier. 
+
+Be really careful with delegate calls. 
+
+Never use a contracts's balance as a guard.
+
+msg.data or the address of the wallet should be of a certain size.
+
+It is really important to perform all the validation in an ICO contract. 
+
+Keep in mind the attacks that has happened until now and then perform validation. 
+
+It is difficult to generate a random number. If you are using block properties, they could be predicted and manipulated by miners.
+
+throw() can be used as an alternative to revert()
+
+Lock pragma versions to specific compiler version rather than greater than a version. 
+
