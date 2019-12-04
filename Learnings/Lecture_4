@@ -1,0 +1,13 @@
+You can use chai assertions and mocha test library. 
+
+You can also do unit testing in solidity and integration testing with javascript.
+But with javascript and truffle you can do both unit and integration testing. 
+
+Read on https://blog.bancor.network/this-analysis-of-bancor-is-flawed-18ab8a000d43
+https://medium.com/@cdixon/crypto-tokens-a-breakthrough-in-open-network-design-e600975be2ef
+
+
+There is also a framework known as espresso which is a testing api for smart contracts. 
+More detailed testing : https://github.com/sc-forks/solidity-coverage
+
+This gives a detailed code coverage for smart contracts.

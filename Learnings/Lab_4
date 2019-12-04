@@ -1,0 +1,17 @@
+Midterm ICO
+
+ERC20 is just a standard(an interface) or a set of rules that a token issuer can follow. 
+
+So people to issue their own tokens with ethereum, write contracts. 
+Now those contracts are not uniform. You might miss some method to put money into the contract but a method to take 
+out of the contract. 
+
+ERC20 is a standard set of methods and variables that help you in developing and deploying your own token contract.
+
+
+Exchanges should know what methods to call to transfer tokens and what methods to get tokens out. It has to be 
+a standard set of methods. 
+
+That is where ERC 20 lies. 
+
+
