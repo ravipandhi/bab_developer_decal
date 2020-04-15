@@ -14,7 +14,7 @@ contract Queue {
 
 	struct Queue_Entry
 	{
-	    address element;
+	    address element1;
     }
 	uint first_position_entry_time;
 	uint queue_stay_duration;
